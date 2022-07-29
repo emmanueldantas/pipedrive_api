@@ -1,0 +1,5 @@
+aiohttp==3.8.1
+clr==1.0.3
+pandas==1.4.3
+python-dotenv==0.20.0
+pythonnet==3.0.0rc4

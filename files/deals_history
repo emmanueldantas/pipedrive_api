@@ -1,0 +1,125 @@
+[
+    {
+        "object": "note",
+        "timestamp": "2022-07-25 11:52:43",
+        "data": {
+            "id": 173338,
+            "user_id": 13030058,
+            "deal_id": 81117,
+            "person_id": 246316,
+            "org_id": null,
+            "lead_id": null,
+            "content": "ID ORIGINAL&nbsp;75166.",
+            "add_time": "2022-07-25 11:52:43",
+            "update_time": "2022-07-25 11:52:46",
+            "active_flag": true,
+            "pinned_to_deal_flag": true,
+            "pinned_to_person_flag": false,
+            "pinned_to_organization_flag": false,
+            "pinned_to_lead_flag": false,
+            "last_update_user_id": null,
+            "organization": null,
+            "person": {
+                "name": "SERGIO SILVIO GOMES ALVES 05500079468"
+            },
+            "deal": {
+                "title": "SERGIO SILVIO GOMES ALVES 1"
+            },
+            "lead": null,
+            "user": {
+                "email": "poliana.carmo@insole.com.br",
+                "name": "INS_REL.CLIENTE_POLIANA CARMO",
+                "icon_url": null,
+                "is_you": false
+            }
+        }
+    },
+    {
+        "object": "dealChange",
+        "timestamp": "2022-07-25 11:52:12",
+        "data": {
+            "id": 2768531,
+            "item_id": 81117,
+            "user_id": 13030058,
+            "field_key": "stage_id",
+            "old_value": "3",
+            "new_value": "180",
+            "is_bulk_update_flag": null,
+            "log_time": "2022-07-25 11:52:12",
+            "change_source": "app",
+            "change_source_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",
+            "additional_data": {
+                "old_value_formatted": "14. Elab. Proposta",
+                "new_value_formatted": "54. Agendamento Vistoria T\u00e9cnica"
+            }
+        }
+    },
+    {
+        "object": "dealChange",
+        "timestamp": "2022-07-25 11:40:34",
+        "data": {
+            "id": 2768428,
+            "item_id": 81117,
+            "user_id": 13030058,
+            "field_key": "value",
+            "old_value": "25.92",
+            "new_value": "25.36",
+            "is_bulk_update_flag": null,
+            "log_time": "2022-07-25 11:40:34",
+            "change_source": "app",
+            "change_source_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",
+            "additional_data": []
+        }
+    },
+    {
+        "object": "dealChange",
+        "timestamp": "2022-07-25 11:36:09",
+        "data": {
+            "id": 2768368,
+            "item_id": 81117,
+            "user_id": 11698145,
+            "field_key": "value",
+            "old_value": "2.16",
+            "new_value": "25.92",
+            "is_bulk_update_flag": null,
+            "log_time": "2022-07-25 11:36:09",
+            "change_source": "api",
+            "change_source_user_agent": "axios/0.27.2",
+            "additional_data": []
+        }
+    },
+    {
+        "object": "dealChange",
+        "timestamp": "2022-07-25 11:35:02",
+        "data": {
+            "id": 2768335,
+            "item_id": 81117,
+            "user_id": 11698145,
+            "field_key": "value",
+            "old_value": "0",
+            "new_value": "2.16",
+            "is_bulk_update_flag": null,
+            "log_time": "2022-07-25 11:35:02",
+            "change_source": "api",
+            "change_source_user_agent": "axios/0.27.2",
+            "additional_data": []
+        }
+    },
+    {
+        "object": "dealChange",
+        "timestamp": "2022-07-25 11:25:05",
+        "data": {
+            "id": 2768235,
+            "item_id": 81117,
+            "user_id": 11698145,
+            "field_key": "add_time",
+            "old_value": null,
+            "new_value": "2022-07-25 11:24:44",
+            "is_bulk_update_flag": null,
+            "log_time": "2022-07-25 11:25:05",
+            "change_source": "api",
+            "change_source_user_agent": "axios/0.27.2",
+            "additional_data": []
+        }
+    }
+]
