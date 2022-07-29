@@ -15,8 +15,8 @@ if __name__ == "__main__":
 
     records = get_view.pipe_log(
         pipelines=[8, 9, 17, 18, 21, 23, 28, 35],
-        columns = ['id','item_id', 'user_id', 'log_time', 'old_value', 'new_value'],
-        save_as='all_deals_history'
+        columns = ['id','item_id', 'user_id', 'log_time', 'old_value', 'new_value']
+        # save_as='all_deals_history'
     )
 
     response = eng_db.exec_increment_pipedrive_log(records)
