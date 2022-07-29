@@ -1,6 +1,7 @@
 import json
 import asyncio
 import time
+import os
 from app_utils import pipe_api
 from app_utils.fetch_data import retreive_tables
 from app_utils.file_manager import save_to
@@ -23,7 +24,7 @@ def all_deals(max_range=100000, start=0, limit=500, save_as=None):
     if save_as:
         save_to(
             file_data=json.dumps(all_deals, indent=4),
-            file_path=f'pipe_api\\files\\{save_as}'
+            file_path=os.path.join(os.getenv('ROOT_DIR') ,f'pipe_api\\files\\{save_as}')
         )
     
     return all_deals
@@ -55,7 +56,7 @@ def pipe_log(pipelines, columns, save_as=None):
     if save_as:
         save_to(
             file_data=json.dumps(filtered_data, indent=4),
-            file_path=f'pipe_api\\files\\{save_as}'
+            file_path=os.path.join(os.getenv('ROOT_DIR'), f'pipe_api\\files\\{save_as}')
         )
     
     return filtered_data
@@ -75,7 +76,7 @@ def deals_id_in_pipelines(pipelines, filter_id=1295, save_as=None):
     if save_as:
         save_to(
             file_data=json.dumps(deals_ids, indent=4),
-            file_path=f'pipe_api\\files\\{save_as}'
+            file_path=os.path.join(os.getenv('ROOT_DIR'), f'pipe_api\\files\\{save_as}')
         )
     
     return deals_ids

@@ -1,9 +1,15 @@
+import os
 from dotenv import load_dotenv
 from ext import get_view
 from ext import eng_db
+from config import app_config
+
 
 if __name__ == "__main__":
-    load_dotenv()
+    app_config()
+    load_dotenv(os.path.join(os.getenv('ROOT_DIR') ,r'.\pipe_api.env'))
+    
+    #Outras funções já disponíveis
     # get_view.deals_id_in_pipelines([18], save_as='deals_in_pipeline')
     # get_view.all_deals(save_as='deals')
 
